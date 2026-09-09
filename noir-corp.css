@@ -324,3 +324,42 @@ a.nav-cta:hover { background: var(--accent); color: #fff; transform: translateY(
   .pricing-grid { grid-template-columns: 1fr; }
   .foot-grid { grid-template-columns: 1fr; gap: 28px; }
 }
+
+/* ============================ Переключатель языка ============================ */
+/* Активный язык — <span>, второй — обычная <a>: работает без JS.
+   Живёт внутри .nav-links, поэтому на телефоне сам уезжает в выпадающее меню. */
+.lang {
+  display: inline-flex; align-items: center; flex: 0 0 auto;
+  border: 1px solid var(--line-2); border-radius: 999px; overflow: hidden;
+  font-size: .78rem; font-weight: 500; letter-spacing: .02em;
+}
+.lang > * { display: block; padding: 6px 11px; line-height: 1; color: var(--ink-soft); transition: background .15s, color .15s; }
+.lang a:hover { color: var(--ink); background: rgba(10,12,16,.05); }
+.lang .lang-on { color: var(--ink); background: rgba(10,12,16,.07); cursor: default; }
+
+/* Предложение сменить язык. Само никогда не редиректит. */
+.langbar {
+  position: fixed; z-index: 70; left: 20px; bottom: 20px; max-width: min(92vw, 340px);
+  display: none; gap: 12px; align-items: flex-start;
+  padding: 15px 15px 15px 17px; border-radius: 14px;
+  background: #fff; border: 1px solid var(--line);
+  box-shadow: 0 16px 40px rgba(10,12,16,.14);
+  opacity: 0; transform: translateY(10px); transition: opacity .28s, transform .28s;
+}
+.langbar.show { display: flex; }
+.langbar.in { opacity: 1; transform: translateY(0); }
+.langbar-tx { font-size: .93rem; line-height: 1.45; color: var(--ink); }
+.langbar-tx b { display: block; font-weight: 600; margin-bottom: 2px; }
+.langbar-tx i { font-style: normal; color: var(--ink-soft); font-size: .82rem; }
+.langbar-go {
+  margin-top: 11px; display: inline-block; padding: 8px 15px; border-radius: 999px;
+  background: var(--ink); color: #fff; font-size: .86rem; font-weight: 500;
+}
+.langbar-go:hover { background: var(--accent); color: #fff; }
+.langbar-x {
+  flex: 0 0 auto; width: 26px; height: 26px; border-radius: 999px; margin: -3px -3px 0 0;
+  color: var(--ink-soft); font-size: 19px; line-height: 1;
+  background: none; border: 0; cursor: pointer; transition: background .15s, color .15s;
+}
+.langbar-x:hover { color: var(--ink); background: rgba(10,12,16,.06); }
+@media (max-width: 860px) { .langbar { left: 12px; right: 12px; bottom: 12px; max-width: none; } }

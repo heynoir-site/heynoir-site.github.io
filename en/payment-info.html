@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payment methods and security — Noir</title>
+  <meta name="description" content="How to pay for a Noir subscription: Visa, Mastercard and MIR bank cards, SBP, crypto from abroad. Payment security, 3-D Secure, processing by the payment provider.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="/noir-corp.css">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Payment methods and security — Noir">
+  <meta property="og:description" content="Accepted payment methods, how the payment is protected, and every step from picking a plan to access being switched on.">
+  <meta property="og:url" content="https://heynoir.com/en/payment-info.html">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <link rel="canonical" href="https://heynoir.com/en/payment-info.html">
+  <link rel="alternate" hreflang="ru" href="https://heynoir.com/payment-info.html">
+  <link rel="alternate" hreflang="en" href="https://heynoir.com/en/payment-info.html">
+  <link rel="alternate" hreflang="x-default" href="https://heynoir.com/payment-info.html">
+<!-- Web analytics: our own, on s.noirvpn.org. The data stays with us. -->
+<script defer src="https://s.noirvpn.org/n.js" data-website-id="4ba6fdea-3851-48e6-a78a-fea0c8b20341"></script>
+</head>
+<body>
+
+<header class="header">
+  <div class="wrap nav">
+    <a class="brand" href="/en/">Noir<span class="dot">.</span><span class="brand-sub">secure channel</span></a>
+    <nav class="nav-links" id="nav-links">
+      <a href="/en/#about">About</a>
+      <a href="/en/#pricing">Pricing</a>
+      <a href="/en/payment-info.html">Payment</a>
+      <a href="/en/contacts.html">Contacts</a>
+      <div class="lang" role="group" aria-label="Язык / Language">
+        <a href="/payment-info.html" hreflang="ru" lang="ru" data-lang-to="ru">RU</a>
+        <span class="lang-on" aria-current="true">EN</span>
+      </div>
+      <a class="nav-cta" href="/en/#pricing">Subscribe</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main class="doc">
+  <div class="wrap" style="max-width: 800px;">
+    <div class="doc-meta">Payment methods, processing, security</div>
+    <h1>Paying for a subscription</h1>
+    <p>A Noir subscription is paid for by bank card over the payment provider's secure connection. This page lists the payment methods we accept, explains how the payment is protected, and walks through every step from picking a plan to access being switched on.</p>
+
+    <p style="margin: 24px 0 32px;"><a class="btn btn-primary" href="https://id.heynoir.com/?from=site&amp;lang=en">Go to payment</a></p>
+    <p>Everything happens in your account: sign in with a code sent to your email, then choose a term and pay. If you already use the <a href="https://t.me/NoirVPN_bot">Telegram bot</a>, renew there instead so you do not end up with a second account.</p>
+
+    <h2>1. Payment methods</h2>
+    <p>The following methods are accepted:</p>
+    <ul>
+      <li><strong>Visa</strong>, <strong>Mastercard</strong> and <strong>MIR</strong> bank cards issued by Russian banks;</li>
+      <li>SBP, Russia's instant payment system, where the payment provider supports it;</li>
+      <li>cryptocurrency, which is the route that works for payments from outside Russia;</li>
+      <li>any other method offered in the payment provider's checkout at the time of payment.</li>
+    </ul>
+    <p><strong>Cards issued outside Russia do not work.</strong> Visa and Mastercard cards issued by foreign banks are not accepted by Russian acquirers, so such a card is declined at the checkout regardless of its balance or limits. If you are paying from abroad, use crypto.</p>
+    <p>All settlement is in Russian roubles. The amount charged matches the price of the plan you picked, as published in the <a href="/en/#pricing">Pricing</a> section. Fees charged by the payment provider and by your issuing bank are already included in that price and are not billed to you on top.</p>
+
+    <h2>2. The payment provider</h2>
+    <p>The payment is processed by a licensed payment provider. Its name and legal details are shown on the secure payment page when you check out. The provider keeps the transaction compliant with the PCI DSS international security standard.</p>
+    <p>Your card details (number, expiry date, CVV) are entered on the provider's payment form and are never passed to the provider of the service. All we receive is the identifier of a successful payment, the amount and the date of the transaction.</p>
+
+    <h2>3. Payment steps</h2>
+    <ol>
+      <li><strong>Sign in to your account.</strong> You enter your email address and confirm it with a one-time code from the message we send.</li>
+      <li><strong>Pick a plan.</strong> In your account you choose the subscription term: 1, 3, 6 or 12 months.</li>
+      <li><strong>Go to checkout.</strong> Once the plan is chosen, a payment link is generated and you are sent to the provider's secure payment form. The connection uses HTTPS.</li>
+      <li><strong>Enter your card details.</strong> You type your card details on the provider's page. Your issuing bank may ask you to confirm the transaction with 3-D Secure: a one-time code by SMS, a push notification in your banking app, or a PIN.</li>
+      <li><strong>Payment is confirmed.</strong> On a successful payment the provider notifies us of the transaction and you are returned to the site.</li>
+      <li><strong>Access is switched on.</strong> The subscription is activated automatically within a minute of a successful payment. Connection details and links to the client software are issued automatically once payment goes through.</li>
+      <li><strong>Receipt.</strong> A receipt under Federal Law 422-FZ is generated automatically in the official "Moy Nalog" tax app and sent to your email.</li>
+    </ol>
+
+    <h2>4. Payment security</h2>
+    <ul>
+      <li>the payment is made on the page of a payment provider certified against PCI DSS;</li>
+      <li>the connection between your device and the payment form is protected by TLS;</li>
+      <li>the provider of the service neither receives nor stores your card details;</li>
+      <li>3-D Secure is used to confirm that you are the cardholder;</li>
+      <li>if a transaction looks fraudulent, the payment provider may request additional confirmation or decline it.</li>
+    </ul>
+
+    <h2>5. Payment receipt (Federal Law 422-FZ)</h2>
+    <p>The service is provided by a self-employed individual registered under Russia's professional income tax regime (NPD). Every payment produces a receipt issued through the Federal Tax Service's "Moy Nalog" app, and a link to the receipt is sent to your email. A duplicate can be requested through support.</p>
+
+    <h2>6. If the payment fails</h2>
+    <p>Common reasons for a decline: the issuing bank rejected the transaction, the card limit is exhausted, the card has expired, the card was issued outside Russia (see section 1), or there was a technical failure. What to do:</p>
+    <ul>
+      <li>check that the details are correct and try paying again;</li>
+      <li>contact your issuing bank to confirm your limit and the reason for the decline;</li>
+      <li>if money left your card but the subscription was not activated, write to <a href="/en/contacts.html">support</a> and quote the payment identifier.</li>
+    </ul>
+
+    <h2>7. Refunds</h2>
+    <p>The conditions and the procedure are set out in full under <a href="/en/refund.html">Refund terms</a>. A refund is paid to the same card the payment was made from, within 10 (ten) working days of the request being confirmed.</p>
+
+    <h2>8. Payment questions</h2>
+    <table class="kv-table">
+      <tr><th>Email</th><td><a href="mailto:hello@heynoir.com">hello@heynoir.com</a></td></tr>
+      <tr><th>Support</th><td>Email <a href="mailto:hello@heynoir.com">hello@heynoir.com</a>; service notifications arrive in Telegram once you have subscribed</td></tr>
+    </table>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="/en/" style="color: #fff;">Noir<span class="dot" style="color: #93c5fd;">.</span></a>
+        <p>A subscription service for secure network connectivity. Provided by a self-employed individual paying Russia's professional income tax (Federal Law 422-FZ).</p>
+      </div>
+      <div class="foot-col">
+        <h4>Service</h4>
+        <a href="/en/#about">About</a>
+        <a href="/en/#pricing">Pricing</a>
+        <a href="/en/payment-info.html">Payment</a>
+        <a href="/en/#faq">FAQ</a>
+      </div>
+      <div class="foot-col">
+        <h4>Legal</h4>
+        <a href="/en/offer.html">Terms of service</a>
+        <a href="/en/privacy.html">Data processing</a>
+        <a href="/en/refund.html">Refund terms</a>
+        <a href="/en/contacts.html">Legal details</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@heynoir.com">hello@heynoir.com</a>
+        <a href="/en/contacts.html">Support and contacts</a>
+        <a href="/payment-info.html" hreflang="ru" lang="ru" data-lang-to="ru">Русская версия</a>
+      </div>
+    </div>
+    <p class="foot-req">Provider: Vadim Aleksandrovich Tolmachev · Russian tax ID (INN) 402404547192 · <a href="mailto:hello@heynoir.com">hello@heynoir.com</a> · <a href="tel:+79208700800">+7 920 870-08-00</a></p>
+      <div class="foot-bottom">
+      <span>© 2026 Noir. All rights reserved.</span>
+      <a href="#" style="color: #94a3b8;">Back to top</a>
+    </div>
+    <p class="foot-disc">The Russian-language version of this site is the only legally binding one.</p>
+  </div>
+</footer>
+
+<script src="/noir-corp.js" defer></script>
+</body>
+</html>

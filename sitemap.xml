@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://heynoir.com/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://heynoir.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://heynoir.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://heynoir.com/"/>
+    <lastmod>2026-09-09</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://heynoir.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://heynoir.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://heynoir.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://heynoir.com/"/>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://heynoir.com/payment-info.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://heynoir.com/payment-info.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://heynoir.com/en/payment-info.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://heynoir.com/payment-info.html"/>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://heynoir.com/en/payment-info.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://heynoir.com/payment-info.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://heynoir.com/en/payment-info.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://heynoir.com/payment-info.html"/>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://heynoir.com/contacts.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://heynoir.com/contacts.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://heynoir.com/en/contacts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://heynoir.com/contacts.html"/>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://heynoir.com/en/contacts.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://heynoir.com/contacts.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://heynoir.com/en/contacts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://heynoir.com/contacts.html"/>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://heynoir.com/offer.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://heynoir.com/offer.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://heynoir.com/en/offer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://heynoir.com/offer.html"/>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://heynoir.com/en/offer.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://heynoir.com/offer.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://heynoir.com/en/offer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://heynoir.com/offer.html"/>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://heynoir.com/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://heynoir.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://heynoir.com/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://heynoir.com/privacy.html"/>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://heynoir.com/en/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://heynoir.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://heynoir.com/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://heynoir.com/privacy.html"/>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://heynoir.com/refund.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://heynoir.com/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://heynoir.com/en/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://heynoir.com/refund.html"/>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://heynoir.com/en/refund.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://heynoir.com/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://heynoir.com/en/refund.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://heynoir.com/refund.html"/>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.4</priority>
+  </url>
+</urlset>
